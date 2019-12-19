@@ -2577,7 +2577,8 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-image: url("/images/light-bl.svg"), url("images/light-br.svg"), url("/images/overlay.png"), url("/images/kid.jpg");
+		background-color: #645862;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("images/kid.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2633,7 +2634,7 @@ input, select, textarea {
 			position: relative;
 			text-transform: uppercase;
 		}
-		#banner2 {
+			#banner2 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("images/b.jpg");
@@ -3255,8 +3256,9 @@ input, select, textarea {
 						padding-top: 0;
 					}
 
-			
-					
+			body.index #main {
+				padding-top: 4.5em;
+			}
 
 		/* CTA */
 
