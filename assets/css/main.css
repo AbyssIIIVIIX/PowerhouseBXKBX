@@ -6,6 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
 article#main {
 	background-image: url("/images/back.jpg");
 }
@@ -82,11 +83,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
-	line-height: 1;
-	background-image: url("images/back.jpg");
-	background-size: cover;
-}
 
 ol, ul {
 	list-style: none;
@@ -2580,7 +2576,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-image: url("/images/light-bl.svg"), url("images/light-br.svg"), url("/images/overlay.png"), url("/images/kid.jpg");
+		background-image: url("/images/light-bl.svg"), url("images/light-br.svg"), url("/images/overlay.png"), url('images/kid.jpg');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2592,7 +2588,7 @@ input, select, textarea {
 	#banner2 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("images/b.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("/images/b.jpg");
 		background-position: bottom left, bottom right, top left, center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2639,7 +2635,7 @@ input, select, textarea {
 		#banner2 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("images/b.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("/images/b.jpg");
 		background-position: bottom left, bottom right, top left, center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
