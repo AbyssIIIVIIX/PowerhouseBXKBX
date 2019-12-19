@@ -2576,7 +2576,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-image: url("/images/light-bl.svg"), url("images/light-br.svg"), url("/images/overlay.png"), url("https://scontent.forf1-1.fna.fbcdn.net/v/t1.0-9/67152311_1345006485668701_8435347698130878464_n.jpg?_nc_cat=109&_nc_eui2=AeEDay5yKyyMiWFWZDP7QvKZz-UDfOkxF4EVtpvasbcueY6iQNF995ZMsljAh0PB9rvBjzilC0Opi5umofabe8LQ4jQsW_oKbAb31nrmHz9TXg&_nc_ohc=fi4boo1prEMAQk3r8U-fi7QgY8Z52pnZMRwLmv4ELdE_4ldMHKd-Mqcxg&_nc_ht=scontent.forf1-1.fna&oh=f0baebf27b841df6fad72a059421dd9b&oe=5EA92088");
+		background-image: url("/images/light-bl.svg"), url("images/light-br.svg"), url("/images/overlay.png"), url(/images/kid.jpg);
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
