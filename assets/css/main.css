@@ -2786,14 +2786,14 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("/images/back.jpg");
+		background-image: url("images/back.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 7em 0;
 	}
 	@media screen and (max-width: 350px){
 		#main{
-		background-image: url("/images/back.jpg");
+		background-image: url("images/back.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 7em 0;
@@ -2801,7 +2801,7 @@ input, select, textarea {
 	}
 	@media screen and (max-width: 480px){
 		#main{
-		background-image: url("/images/back.jpg");
+		background-image: url("images/back.jpg");
 		background-repeat: no-repeat;
 		background-size: cover !important;
 		padding: 7em 0;
