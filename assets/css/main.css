@@ -2634,17 +2634,17 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 		#banner2 {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("/images/b.jpg");
-		background-position: bottom left, bottom right, top left, center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
-		color: #fff;
-		cursor: default;
-		padding: 6em 0;
-		text-align: center;
-	}
+			background-attachment: scroll, scroll, scroll, fixed;
+			background-color: #645862;
+			background-image: url(images/light-bl.svg), url(images/light-br.svg), url(images/overlay.png), url(../../images/b.jpg);
+			background-position: bottom left, bottom right, top left, center;
+			background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+			background-size: 25em, 25em, auto, cover;
+			color: #fff;
+			cursor: default;
+			padding: 6em 0;
+			text-align: center;
+		}
 	#banner2 .inner {
 		-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 		-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2684,7 +2684,7 @@ input, select, textarea {
 			background-attachment: scroll, scroll, scroll, fixed;
 			background-color: #645862;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/pwr.jpg");
-			background-position: bottom left, bottom right, top left, center;
+			background-position: bottom left, bottom right, top left, top center;
 			background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 			background-size: 25em, 25em, auto, cover;
 			color: #fff;
