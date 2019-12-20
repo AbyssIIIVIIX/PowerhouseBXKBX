@@ -8,9 +8,10 @@
 */
 
 article#main {
-	background-image: url("/images/back.jpg");
+    background-image: url(../../images/back.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
 }
-
 article#main img{
 	margin: auto;
 	width: 100%;
