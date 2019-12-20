@@ -6,7 +6,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+a{
+	text-decoration: none;
+}
 article#main {
     background-image: url(../../images/back.jpg);
     background-size: 100%;
