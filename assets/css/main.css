@@ -2588,7 +2588,7 @@ input, select, textarea {
 	#banner2 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("/images/b.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/b.jpg");
 		background-position: bottom left, bottom right, top left, center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2682,7 +2682,7 @@ input, select, textarea {
 		#banner3 {
 			background-attachment: scroll, scroll, scroll, fixed;
 			background-color: #645862;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("images/pwr.jpg");
+			background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/pwr.jpg");
 			background-position: bottom left, bottom right, top left, center;
 			background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 			background-size: 25em, 25em, auto, cover;
