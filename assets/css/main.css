@@ -6,19 +6,19 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-.mapouter{
-	position:relative;
-	text-align:right;
-	height:500px;
-	width:600px;
-	}
-.gmap_canvas {
-		margin: auto;
-		overflow:hidden;
-		background:none!important;
-		height:500px;
-		width:600px;
-	}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 div#main > section:nth-of-type(3) > div > section p{
 	text-align: justify;
