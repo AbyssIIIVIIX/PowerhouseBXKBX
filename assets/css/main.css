@@ -37,7 +37,7 @@ section.wrapper > .style3 > .container > .special > h1{
 div#main > section:nth-of-type(3) > div > section{
 	padding: 20px;
 }
-article#main > section{
+article#main  {
 	border-radius: 15px;
 	margin-bottom: 2em;
 }
@@ -2426,7 +2426,7 @@ input, select, textarea {
 	#header {
 		background: #333;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-		color: inherit;
+		color: white;
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
