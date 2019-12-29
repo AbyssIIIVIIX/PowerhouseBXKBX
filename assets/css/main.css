@@ -6,6 +6,19 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:600px;
+	}
+.gmap_canvas {
+		margin: auto;
+		overflow:hidden;
+		background:none!important;
+		height:500px;
+		width:600px;
+	}
 
 div#main > section:nth-of-type(3) > div > section p{
 	text-align: justify;
