@@ -10,6 +10,8 @@
 		$body = $('body'),
 		$header = $('#header'),
 		$banner = $('#banner');
+		$banner2 = $('#banner2'),
+		$banner3 = $('#banner3'),
 
 	// Breakpoints.
 		breakpoints({
@@ -88,6 +90,7 @@
 					enter:		function() { $header.addClass('alt reveal'); },
 					leave:		function() { $header.removeClass('alt'); }
 				});
+				
 
 			});
 
